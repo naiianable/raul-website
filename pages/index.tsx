@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import LandingPage from './LandingPage';
-import AboutMe from './AboutMe';
+import LandingPage from '../components/LandingPage';
+import AboutMe from '../components/AboutMe';
 
 export default function Home() {
   return (
