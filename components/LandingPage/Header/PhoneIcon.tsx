@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import phoneIcon from '../../images/phone-icon.svg';
+import phoneIcon from '../../../images/phone-icon.svg';
 
 const PhoneIcon = () => {
   return (

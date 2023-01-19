@@ -12,6 +12,19 @@ module.exports = {
     },
     fontFamily: {
       serif: ['Merriweather', 'serif'],
+      sans: ['Lato', 'sans-serif'],
+    },
+    screens: {
+      sm: { max: '360px' },
+      md: { min: '361px', max: '768px' },
+      lg: { min: '769px' },
+    },
+    fontSize: {
+      sm: '10px',
+      md: '16px',
+      lg: '24px',
+      xl: '36px',
+      '2xl': '40px',
     },
     extend: {},
   },

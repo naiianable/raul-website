@@ -1,6 +1,5 @@
-import React from 'react';
 import Image from 'next/image';
-import hamburger from '../../images/hamburger-icon.svg';
+import hamburger from '../../../images/hamburger-icon.svg';
 
 const HamburgerIcon = () => {
   return (

@@ -4,16 +4,10 @@ import AboutMe from '../components/AboutMe';
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        {/* <title>Raul Sabat</title>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Merriweather&display=swap'
-          rel='stylesheet'
-        /> */}
-      </Head>
+    <div className='flex flex-column'>
+      <Head>{/* <title>Raul Sabat</title>*/}</Head>
       <LandingPage />
-      <AboutMe />
+      {/* <AboutMe /> */}
     </div>
   );
 }
