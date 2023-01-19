@@ -15,7 +15,7 @@ const Title = () => {
           <Image alt='Title Divider' className='' src={divider} />
         </div>
         <div className='sm: text-[14px]'>Honolulu, HI</div>
-        <div className='mt-6 sm: text-[14px]'>
+        <div className='mt-5 sm: text-[14px]'>
           <div>CURRENTLY ACCEPTING NEW PATIENTS</div>
           <div>PLEASE CONTACT ME FOR A</div>
           <div>FREE 15 MIN CONSULTATION</div>
