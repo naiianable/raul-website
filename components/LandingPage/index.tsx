@@ -7,8 +7,10 @@ const LandingPage = () => {
   return (
     <div className='flex flex-col items-center w-full'>
       <Header />
-      <Title />
-      <ActionButtons />
+      <div className='w-full'>
+        <Title />
+        <ActionButtons />
+      </div>
     </div>
   );
 };

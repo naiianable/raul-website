@@ -15,13 +15,14 @@ module.exports = {
       sans: ['Lato', 'sans-serif'],
     },
     screens: {
-      sm: { max: '360px' },
-      md: { min: '361px', max: '768px' },
-      lg: { min: '769px' },
+      mobile: { max: '767px' },
+      tablet: { min: '768px', max: '1919px' },
+      laptop: { min: '1920px' },
     },
     fontSize: {
       sm: '10px',
-      md: '16px',
+      //md: 16px displaying past neighboring div borders
+      md: '14px',
       lg: '24px',
       xl: '36px',
       '2xl': '40px',
