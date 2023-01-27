@@ -3,6 +3,7 @@ import mailIcon from '../../../images/mail-icon.svg';
 import phoneIcon from '../../../images/phone-icon.svg';
 import headshot from '../../../images/headshot.svg';
 import servingHawaii from '../../../images/serving-hawaii.svg';
+import IconCard from './IconCard';
 
 const ActionButtons = () => {
   return (
@@ -34,17 +35,30 @@ const ActionButtons = () => {
               <div className='pl-2 text-[14px]'>CALL</div>
             </div>
           </div>
+          <div className='headshot-div flex flex-col justify-center pt-10 mobile:hidden w-full'>
+            <div className='flex justify-center'>
+              <Image alt='Serving Hawaii' src={servingHawaii} />
+            </div>
+            <IconCard />
+          </div>
         </div>
 
+        {/* Raul headshot mobile/tablet responsive */}
         <div className='headshot-div flex mobile:justify-center mobile:mt-6 mobile:mb-3 tablet:w-1/2 mobile:pl-0 pl-2'>
           <div className='mobile:h-[308px] h-[544px] mobile:w-[248px] w-[438px]'>
             <Image alt='Raul Headshot' src={headshot} />
           </div>
         </div>
 
-        {/* <div className=''>
-          <Image alt='Serving Hawaii' src={servingHawaii} />
-        </div> */}
+        {/* displays serving hawaii for mobile */}
+        <div className='mobile-card tablet:hidden'>
+          <div className='headshot-div flex mobile:justify-center mobile:mt-6 mobile:mb-3 tablet:w-1/2 mobile:pl-0 pl-2 '>
+            <div className=''>
+              <Image alt='Serving Hawaii' src={servingHawaii} />
+            </div>
+          </div>
+          <IconCard />
+        </div>
       </div>
     </div>
   );

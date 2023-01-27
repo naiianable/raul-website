@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     colors: {
       'primary-gray': '#444444',
-      'primary-blue': '#98B8D7',
+      'primary-blue': '#3283D2',
     },
     fontFamily: {
       serif: ['Merriweather', 'serif'],

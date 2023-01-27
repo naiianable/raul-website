@@ -3,7 +3,7 @@ import hamburger from '../../../images/hamburger-icon.svg';
 
 const HamburgerIcon = () => {
   return (
-    <div className='pl-4'>
+    <div className='pr-4'>
       <Image
         alt='Menu Hamburger'
         src={hamburger}
