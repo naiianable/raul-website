@@ -4,8 +4,8 @@ const AboutMe = () => {
   return (
     <div className='bg-secondary-gray px-2.5 py-8'>
       <div className='text-primary-blue text-lg'>About</div>
-      <div className='font-sans text-md leading-5'>
-        Sometimes life is rough. You may want to make changesin your life, but
+      <div className='font-sans text-md leading-5 pt-4'>
+        Sometimes life is rough. You may want to make changes in your life, but
         may be unsure about where to start. I assist individuals and couples in
         better understanding the struggles they have been facing through
         improving their awareness of cognitive and behavioral patterns that may

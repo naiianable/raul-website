@@ -28,6 +28,9 @@ module.exports = {
       xl: '36px',
       '2xl': '40px',
     },
+    fontWeight: {
+      semibold: '700',
+    },
     extend: {},
   },
   plugins: [],
