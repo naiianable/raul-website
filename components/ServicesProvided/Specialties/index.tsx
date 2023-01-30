@@ -4,8 +4,8 @@ import SpecialtiesList from './SpecialtiesList';
 const Specialties = () => {
   return (
     <>
-      <div className='font-sans leading-5 pt-4'>
-        <div className='tablet:text-[20px] laptop:text-[24px]'>Specialties</div>
+      <div className='font-sans text-[16px] tablet:text-[20px] laptop:text-[24px] leading-5 pt-4'>
+        <div>Specialties</div>
         <SpecialtiesList />
       </div>
     </>
