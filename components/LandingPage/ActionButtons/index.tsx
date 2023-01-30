@@ -51,7 +51,7 @@ const ActionButtons = () => {
         </div>
 
         {/* displays serving hawaii for mobile */}
-        <div className='mobile-card tablet:hidden'>
+        <div className='mobile-card tablet:hidden laptop:hidden'>
           <div className='headshot-div flex mobile:justify-center mobile:mt-6 mobile:mb-3 tablet:w-1/2 mobile:pl-0 pl-2 '>
             <div className=''>
               <Image alt='Serving Hawaii' src={servingHawaii} />
