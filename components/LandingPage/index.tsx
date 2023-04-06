@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Title from './Title';
-import ActionButtons from './ActionButtons';
+import CallEmail from './CallEmail';
 
 const LandingPage = () => {
   return (
@@ -9,7 +9,7 @@ const LandingPage = () => {
       <Header />
       <div className='w-full'>
         <Title />
-        <ActionButtons />
+        <CallEmail />
       </div>
     </div>
   );
