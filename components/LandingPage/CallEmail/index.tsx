@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import mailIcon from '../../../images/mail-icon.svg';
-import phoneIcon from '../../../images/phone-icon.svg';
 import headshot from '../../../images/headshot.svg';
 import servingHawaii from '../../../images/serving-hawaii.svg';
 import IconCard from './IconCard';
+import ButtonContainer from '@/components/ActionButtons/ButtonContainer';
 
-const ActionButtons = () => {
+const CallEmail = () => {
   return (
+    //Display buttons for mobile view
     <div className='call-to-action-div w-full my-4 font-sans text-center'>
       <div className='text-md tablet:hidden laptop:hidden'>
         <div>CURRENTLY ACCEPTING NEW PATIENTS</div>
@@ -14,6 +14,7 @@ const ActionButtons = () => {
         <div>FREE 15 MIN CONSULTATION</div>
       </div>
 
+      {/* Displays for tablet and laptop */}
       <div className='headshot-action-div flex flex-row-reverse mobile:flex-col justify-evenly mobile:mt-0 mt-2'>
         <div className='tablet-laptop-div flex flex-col w-full'>
           <div className='text-md mobile:hidden tablet:mx-2'>
@@ -21,20 +22,7 @@ const ActionButtons = () => {
             <div>PLEASE CONTACT ME FOR A</div>
             <div>FREE 15 MIN CONSULTATION</div>
           </div>
-          <div className='action-buttons-div flex flex-col mobile:flex-row mobile:space-y-0 space-y-4 mobile:space-x-5 mobile:mt-2 mt-2 px-2'>
-            <div className='action-button flex flex-row border border-primary-blue border-solid rounded-md bg-primary-blue h-[50px] items-center justify-center mobile:w-1/2 tablet:mr-0'>
-              <div className=''>
-                <Image alt='Mail Icon' src={mailIcon} className='pr-2' />
-              </div>
-              <div className='pl-2 text-[14px]'>EMAIL</div>
-            </div>
-            <div className='action-button flex flex-row border border-primary-blue border-solid rounded-md bg-primary-blue h-[50px] items-center justify-center w-full mobile:w-1/2 tablet:ml-0'>
-              <div>
-                <Image alt='Phone Icon' src={phoneIcon} className='pr-2' />
-              </div>
-              <div className='pl-2 text-[14px]'>CALL</div>
-            </div>
-          </div>
+          <ButtonContainer />
           <div className='headshot-div flex flex-col justify-center pt-10 mobile:hidden w-full'>
             <div className='flex justify-center'>
               <Image alt='Serving Hawaii' src={servingHawaii} />
@@ -64,4 +52,4 @@ const ActionButtons = () => {
   );
 };
 
-export default ActionButtons;
+export default CallEmail;

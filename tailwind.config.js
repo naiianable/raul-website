@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     colors: {
       'primary-gray': '#444444',
+      'secondary-gray': '#E9E9E9',
       'primary-blue': '#3283D2',
+      'primary-white': '#FFFFFF',
     },
     fontFamily: {
       serif: ['Merriweather', 'serif'],
@@ -26,6 +28,9 @@ module.exports = {
       lg: '24px',
       xl: '36px',
       '2xl': '40px',
+    },
+    fontWeight: {
+      semibold: '700',
     },
     extend: {},
   },
