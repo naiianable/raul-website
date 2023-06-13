@@ -1,3 +1,5 @@
+import Gmap from '../GMap';
+
 const AddressMap = () => {
   return (
     <>
@@ -8,7 +10,7 @@ const AddressMap = () => {
           <div>Honolulu, HI 96813</div>
         </div>
         <div className='Google Map Div mobile:mt-[32px] mobile:mb-[16px]'>
-          Google Map Here
+          <Gmap />
         </div>
         <div className=''>
           Our office is located in the AC Hotel Honolulu building (previously
