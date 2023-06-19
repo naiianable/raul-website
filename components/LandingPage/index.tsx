@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Title from './Title';
 import CallEmail from './CallEmail';
+import Footer from '../Footer';
 
 const LandingPage = () => {
   return (
