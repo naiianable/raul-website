@@ -1,4 +1,5 @@
 import Contact from './Contact';
+import AddressMap from './AddressMap';
 
 const ContactLocation = () => {
   return (
@@ -8,7 +9,7 @@ const ContactLocation = () => {
       </div>
       <div className='tablet-view-div mobile:flex mobile:flex-col flex flex-row space-x-2 mobile:space-x-0 flex font-sans'>
         <Contact />
-        <div className='w-1/2 mobile:w-full'>address and map</div>
+        <AddressMap />
       </div>
     </div>
   );
